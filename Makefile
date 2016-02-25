@@ -13,4 +13,4 @@ test: build
 	cd build && ./airnet-test
 
 astyle:
-	source/*.cpp 
+	astyle --style=google --recursive --suffix=none -s2 source/*.cpp source/*.hpp source/*.h
