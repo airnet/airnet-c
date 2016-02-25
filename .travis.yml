@@ -1,0 +1,12 @@
+language: cpp
+addons:
+  apt:
+    sources:
+      - george-edison55-precise-backports
+      - ubuntu-toolchain-r-test
+    packages:
+      - cmake
+      - cmake-data
+      - g++-4.8
+script:
+  - CXX="g++-4.8" CC="gcc-4.8" make test
