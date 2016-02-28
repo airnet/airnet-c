@@ -5,7 +5,7 @@ decentralized, secure, p2p mesh networking
 
 This is the airnet C++ reference implementation library and system daemon.
 
-`Airnetd` creates a tap/tun interface and a control socket and allows for easy communication over the airnet network.
+`Airnetd` creates a tap/tun interface and a control socket and allows for easy communication over the airnet network. It also creates a SOCKS5 proxy which can be used to directly communicate by hostname.
 
 
 | Service | System | Compiler | Targets | Status |
